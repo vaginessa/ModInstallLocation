@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+<<<<<<< HEAD:.classpath
+	<classpathentry kind="lib" path="lib/pm.jar"/>
+=======
+	<classpathentry kind="lib" path="lib/DroidDropNotes.jar"/>
+>>>>>>> cd540be148839fa0cf1a84a042f042d46d6fded8:.classpath
+	<classpathentry kind="output" path="bin"/>
+</classpath>

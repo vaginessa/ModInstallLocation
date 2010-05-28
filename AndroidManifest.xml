@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD:AndroidManifest.xml
+      package="my.codeandroid.modil"
+      android:versionName="1.0" android:installLocation="preferExternal" android:versionCode="1">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Dialog"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+    <uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8"/>
+=======
+	package="my.codeandroid.itisvid" android:versionCode="4" android:versionName="1.0.5">
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/CustomTheme">
+		<activity android:name=".activity.HomeActivity" android:label="@string/app_name" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".activity.ListAllCamsActivity" android:label="@string/label_all_cams"/>
+		
+		<activity android:name=".activity.ListFavCamsActivity" android:label="@string/label_fav_cams"/>
+
+		<activity android:name=".activity.ShowItisWapActivity" android:label="@string/label_itis_wap"/>
+		
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+
+>>>>>>> cd540be148839fa0cf1a84a042f042d46d6fded8:AndroidManifest.xml
+</manifest> 
